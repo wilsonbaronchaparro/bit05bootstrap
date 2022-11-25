@@ -9,6 +9,7 @@ body {
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
+
 }
 header,
 nav,
@@ -53,4 +54,9 @@ footer {
 div {
     border: 2px solid #5d535e;
     padding: 10px;
+}
+.titulo {
+display: flex;
+justify-content: center;
+align-items: center;
 }
