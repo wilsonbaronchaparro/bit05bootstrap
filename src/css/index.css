@@ -5,14 +5,19 @@ body {
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
-    background-image:url(../imagenes\ wilson/fondo.jpg);
+    background-image:url(../imgenes\ yesica/fondo.jpeg);
     background-size: cover;
-    background-position:center;
+    background-position:center ;
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-
 }
+
+div {
+    padding: 10px;
+    border: 2px solid #5d535e;
+}
+
 header,
 nav,
 main,
@@ -36,7 +41,7 @@ header {
 nav {
     height: 48px;
     background-color: #dfe166;
-    
+    padding: 10px;
 }
 main,
 aside {
@@ -45,20 +50,27 @@ aside {
 }
 main {
     width: 800px;
+    padding: 20px;
+    text-align: auto;
 }
+
 aside {
     width: 220px;
-    }
-footer {
-    height: 32px;
-    background-color: #9a9eab;
-    }
-div {
-    border: 2px solid #5d535e;
-    padding: 10px;
+    padding: 5px;
 }
+
+footer {
+    height: 52px;
+    background-color: #9a9eab;
+} 
 .titulo {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
